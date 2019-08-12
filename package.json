@@ -1,5 +1,5 @@
 {
-  "name": "escpos",
+  "name": "escpos-without-adapter",
   "version": "2.5.1",
   "description": "ESC/POS Printer driver for nodejs",
   "main": "index.js",
@@ -38,10 +38,7 @@
   },
   "optionalDependencies": {
     "get-pixels": "*",
-    "serialport": "*",
     "qr-image": "*",
-    "usb": "*",
-    "node-bluetooth": "*"
   },
   "devDependencies": {
     "mocha": "*"
