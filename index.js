@@ -8,7 +8,6 @@ exports.Console = require('./adapter/console');
  * Printer Supports
  */
 exports.Image    = require('./image');
-exports.Server   = require('./server');
 exports.Printer  = require('./printer');
 exports.Screen  = require('./screen');
 exports.Adapter  = require('./adapter');
